@@ -62,7 +62,10 @@ if __name__ == "__main__":
     main = USDotScraperDriver()
     argParser = argparse.ArgumentParser()
     argParser.add_argument("-f", "--file", help="input file")
-    argParser.add_argument("-o", "--outputfile", help="input file")
     args = argParser.parse_args()
-    main.run(args.file)
+    if args.file != None:
+        main.run(args.file)
+    else:
+        print("Incorrect number of arguments")
+        
     

@@ -8,7 +8,11 @@
 #### https://ai.fmcsa.dot.gov/SMS/Carrier/[DOT_NUMBER]/CarrierRegistration.aspx 
 #### DOT number is a unique identifier for each carrier
 
-#### In order to account for the usdot website going down, I want to implement a mechanism to check for items already
-#### scraped. Before scraping for an item, the package should first check if it exists in our csv file unless 
-#### explicitly told to override the previous entry. 
-#### A sleep -> retry strategy can be used to account for a transient issue like loss of network connection.
+### Running the code
+#### 1. Download the project/repo
+#### 2. Run the following command to install the necessary dependencies `pip install -r requirements.txt`. 
+#### Ensure that python3 is already installed on your machine
+#### 3. Using a cav file with the column name `U.S. DOT#:`, run the following command `python .\src\USDotScraperDriver.py -f filename.csv`
+#### If you are in the src folder, ommit the src part in the command
+
+
