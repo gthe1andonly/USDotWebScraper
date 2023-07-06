@@ -8,7 +8,7 @@
 #### https://ai.fmcsa.dot.gov/SMS/Carrier/[DOT_NUMBER]/CarrierRegistration.aspx 
 #### DOT number is a unique identifier for each carrier
 
-### Running the code
+## Running the code
 #### 1. Download the project/repo
 #### 2. Run the following command to install the necessary dependencies `pip install -r requirements.txt`. 
 #### Ensure that python3 is already installed on your machine
@@ -16,7 +16,7 @@
 #### If you are in the src folder, ommit the src part in the command
 
 
-### Design
+## Design
 #### The main components are broken down into 2 classes, web scraper class and the driver class.
 #### The web scraper class has functions to make requests to the website and parse the webpage.
 #### The driver class uses these functions to tie things together by reading from an input file,
