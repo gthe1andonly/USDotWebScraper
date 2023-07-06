@@ -15,6 +15,8 @@
 #### 3. Using a cav file with the column name `U.S. DOT#:`, run the following command `python .\src\USDotScraperDriver.py -f filename.csv`
 #### If you are in the src folder, ommit the src part in the command
 
+
+### Design
 #### The main components are broken down into 2 classes, web scraper class and the driver class.
 #### The web scraper class has functions to make requests to the website and parse the webpage.
 #### The driver class uses these functions to tie things together by reading from an input file,
